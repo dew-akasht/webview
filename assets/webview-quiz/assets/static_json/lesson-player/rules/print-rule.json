@@ -1,0 +1,177 @@
+{
+    "event": {
+        "onOptClick": {
+            "actions": [
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "instantFeedback"
+                }
+            ]
+        },
+        "USER_ATTEMPT_UPDATED": {
+            "actions": [
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "instantFeedback"
+                }
+            ]
+        },
+        "resetQuestion": {
+            "actions": [
+                {
+                    "value": "stylePrint",
+                    "type": "removeClass",
+                    "data": "instantFeedback"
+                }
+            ]
+        },
+        "correctQuestion": {
+            "actions": [
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "instantFeedback"
+                }
+            ]
+        },
+        "maxAttemptFb": {
+            "actions": [
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "instantFeedback"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "showQSol_W"
+                }
+            ]
+        },
+        "correctAttemptFb": {
+            "actions": [
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "instantFeedback"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "showQSol"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "showQSol_C"
+                }
+            ]
+        },
+        "correctQuestion": {
+            "actions": [
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "instantFeedback"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "print-solution"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "disable"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "showQSol"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "showQSol_C"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "showQSol_W"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "showQFb_W"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "showSolButton"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "applyClass",
+                    "data": "restrictopt"
+                }
+            ]
+        },
+        "resetQuestion": {
+            "actions": [
+                {
+                    "value": "stylePrint",
+                    "type": "removeClass",
+                    "data": "instantFeedback"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "removeClass",
+                    "data": "print-solution"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "removeClass",
+                    "data": "disable"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "removeClass",
+                    "data": "showQSol"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "removeClass",
+                    "data": "showQSol_C"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "removeClass",
+                    "data": "showQSol_W"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "removeClass",
+                    "data": "showQFb_W"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "removeClass",
+                    "data": "showSolButton"
+                },
+                {
+                    "value": "stylePrint",
+                    "type": "removeClass",
+                    "data": "restrictopt"
+                }
+            ]
+        }
+    },
+    "parameters": {
+        "maxAttempt": 0,
+        "allOption": 0,
+        "qCompletion": "Q_Fb"
+    },
+    "msgRule": []
+}
